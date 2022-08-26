@@ -1,0 +1,30 @@
+/* centered button that is yellow */
+.yellow-button {
+  margin-top: 5px;
+  width: 500px;
+  font-size: 40px;
+  /* give the button a black border */
+  border: 1px solid black;
+}
+
+/* button class hover bg is red */
+.yellow-button:hover {
+  color: white;;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+body{
+    background-color: #F28500;
+    /* use bg.jpg as background image */
+    background-image: url("./assets/bg.jpg");
+}
