@@ -28,3 +28,11 @@ body{
     /* use bg.jpg as background image */
     background-image: url("./assets/bg.jpg");
 }
+
+.options{
+  color: white;
+}
+
+.options:hover{
+    color: black;
+}
