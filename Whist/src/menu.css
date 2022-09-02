@@ -1,0 +1,53 @@
+/* centered button that is yellow */
+.main-button {
+  margin-top: 20px;
+  width: 500px;
+  font-size: 40px;
+  /* give the button a black border */
+  border: 1px solid black;
+}
+
+/* button class hover bg is red */
+.main-button:hover {
+  color: white;
+  animation-name: rotate3;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  background-color: black;
+  border: 1px solid black;
+}
+
+/* animation rotata 3 */
+@keyframes rotate3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+body{
+    background-color: #F28500;
+    /* use bg.jpg as background image */
+    background-image: url("./assets/bg.jpg");
+}
+
+.options{
+  color: white;
+}
+
+.options:hover{
+    color: black;
+}
