@@ -21,11 +21,16 @@ const Menu = () => {
             </h1>
             {/* A buttonw with class centered*/}
             <div className="button-container">
-                <button className="yellow-button btn">Start</button>
-                <button className="yellow-button btn">Options</button>
+                <button className="main-button btn">Start game</button>
+                <button className="main-button btn">Game options</button>
             </div>
         </div>
     );
 }
+
+
+// create a function to couint in ms how long the page has been running
+
+
 
 export default Menu;
